@@ -1,1 +1,27 @@
+React is one of the most popular, efficient, and powerful open-source JavaScript libraries for building dynamic and interactive user interfaces.
 
+Using create-react-app (CRA commond)
+Step 1: Navigate to the folder where you want to create the project and open it in terminal
+
+Step 2: In the terminal of the application directory type the following command
+
+npx create-react-app <<Application_Name>>
+Step 3: Navigate to the newly created folder using the command
+
+cd <<Application_Name>>
+
+Step 4: To run this application type the following command in terminal
+npm start
+
+Stateless Functional Component
+Includes simple JavaScript functions and immutable properties, i.e., the value for properties cannot be changed. 
+Use hooks to achieve functionality for making changes in properties using JS. 
+Used mainly for UI.
+
+Stateful Class Component
+Classes which extend the Component class from React library. The class component must include the render method which returns HTML.
+
+What is JSX ?
+JSX stands for JavaScript XML. JSX is basically a syntax extension of JavaScript.
+React JSX helps us to write HTML in JavaScript and forms the basis of React Development. 
+Using JSX is not compulsory but it is highly recommended for programming in React as it makes the development process easier as the code becomes easy to write and read. 
