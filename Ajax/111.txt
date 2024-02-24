@@ -1,0 +1,24 @@
+What is AJAX?
+AJAX = Asynchronous JavaScript And XML.
+AJAX is not a programming language.
+
+AJAX just uses a combination of:
+A browser built-in XMLHttpRequest object (to request data from a web server)
+JavaScript and HTML DOM (to display or use the data)
+AJAX is a misleading name. AJAX applications might use XML to transport data, but it is equally common to transport data as plain text or JSON text.
+
+AJAX allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. This means that it is possible to update parts of a web page, without reloading the whole page.
+
+Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
+The design goals of XML focus on simplicity, generality, and usability across the Internet. It is a textual data format with strong support via Unicode for different human languages.
+Although the design of XML focuses on documents, the language is widely used for the representation of arbitrary data structures such as those used in web services.
+XML stands for extensible Markup Language
+XML is a markup language like HTML
+XML is designed to store and transport data
+XML is designed to be self-descriptive
+
+JSON stands for JavaScript Object Notation. It is a format for structuring data. This format is used by different web applications to communicate with each other.
+It is the replacement of the XML data exchange format. It is easy to struct the data compare to XML. 
+It supports data structures like arrays and objects and the JSON documents that are rapidly executed on the server.
+
+
