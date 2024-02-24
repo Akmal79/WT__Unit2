@@ -1,0 +1,43 @@
+What is jQuery?
+jQuery is a lightweight, "write less, do more", JavaScript library.
+The purpose of jQuery is to make it much easier to use JavaScript on your website.
+jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+
+Add New HTML Content
+We will look at four jQuery methods that are used to add new content:
+append() - Inserts content at the end of the selected elements
+prepend() - Inserts content at the beginning of the selected elements
+after() - Inserts content after the selected elements
+before() - Inserts content before the selected elements
+
+jQuery append() Method
+The jQuery append() method inserts content AT THE END of the selected HTML elements.
+
+$("p").append("Some appended text.");
+
+jQuery hide()
+Demonstrates a simple jQuery hide() method.
+
+jQuery hide()
+Another hide() demonstration. How to hide parts of text.
+
+jQuery hide() and show()
+With jQuery, you can hide and show HTML elements with the hide() and show() methods:
+
+$("#hide").click(function(){
+  $("p").hide();
+});
+
+$("#show").click(function(){
+  $("p").show();
+});
+
+jQuery toggle()
+You can also toggle between hiding and showing an element with the toggle() method.
+
+Shown elements are hidden and hidden elements are shown:
+
+Example
+$("button").click(function(){
+  $("p").toggle();
+});
