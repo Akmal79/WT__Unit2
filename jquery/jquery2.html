@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <p>This is JQuery</p>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <script>
+            $(document).ready(function(){
+                $("#hide").click(function(){
+                    $('p').hide()
+                })
+                $("#show").click(function(){
+                    $('p').show()
+                })
+            })
+        </script>
+    </body>
+</html>

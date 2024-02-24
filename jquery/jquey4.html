@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <p id="p1">JQuery</p>
+        <button>Click Me</button>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $('#p1').css("color","red").slideUp(2000).slideDown(2000)
+                })
+            })
+        </script>
+    </body>
+</html>

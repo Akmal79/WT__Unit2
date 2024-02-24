@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <p id="p1">JQuery</p>
+        <script>
+            $(document).ready(function(){
+                $("#p1").hover(function(){
+                    alert("Entered Paragaraph")
+                },function(){
+                    alert("Moving out of Paragraph")
+                }
+                )
+            })
+        </script>
+    </body>
+</html>

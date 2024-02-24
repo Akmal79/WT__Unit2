@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js">
+
+        </script>
+    </head>
+    <body>
+        <ol>
+            <li>web</li>
+            <li>java</li>
+            <li>python</li>
+        </ol>
+        <p>PES</p>
+        <p>RVCE</p>
+        <button id="button1">Append Test</button>
+        <button id="button2">Append Test</button>
+
+        <script>
+            $(document).ready(function(){
+                $('#button1').click(function(){
+                    $('p').append("<b>javascript</b>")
+                })
+            })
+            $(document).ready(function(){
+                $('#button2').click(function(){
+                    $('ol').append("<b>python</b>")
+                })
+            })
+        </script>
+    </body>
+</html>
