@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            function load() {
+                var xhr = new XMLHttpRequest(); // Fixed variable name (changed xtr to xhr)
+                xhr.open("GET", "demo.txt", true); // Fixed typo in the method name (changed "get" to "GET")
+                xhr.onreadystatechange = showdata;
+                xhr.responseType = "text";
+                xhr.send();
+            }
+
+            function showdata() {
+                console.log("in function show data");
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("div1").innerHTML = this.responseText; 
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="load()">Load</button>
+        <div id="div1"></div> <!-- Fixed div ID (changed "div" to "div1") -->
+    </body>
+</html>

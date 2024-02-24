@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            function load() {
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "sample.xml", true);
+                xhr.onreadystatechange = showdata;
+                xhr.responseType = "document";
+                xhr.send();
+            }
+
+            function showdata() {
+                console.log("in function show data");
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("div1").innerHTML = this.response.getElementsByTagName("srn")[1].firstChild.nodeValue; 
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="load()">Load</button>
+        <div id="div1"></div>
+    </body>
+</html>
